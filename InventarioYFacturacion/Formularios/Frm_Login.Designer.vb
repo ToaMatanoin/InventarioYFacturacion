@@ -146,10 +146,11 @@ Partial Class Frm_Login
         Me.Button2.Text = "Salir"
         Me.Button2.UseVisualStyleBackColor = False
         '
-        'Login
+        'Frm_Login
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(780, 330)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -160,7 +161,7 @@ Partial Class Frm_Login
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "Login"
+        Me.Name = "Frm_Login"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Login"
         Me.Panel1.ResumeLayout(False)

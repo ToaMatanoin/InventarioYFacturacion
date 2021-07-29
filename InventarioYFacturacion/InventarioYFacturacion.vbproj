@@ -73,11 +73,35 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Formularios\Frm_Articulos.Designer.vb">
+      <DependentUpon>Frm_Articulos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Frm_Articulos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Frm_Descuento.Designer.vb">
+      <DependentUpon>Frm_Descuento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Frm_Descuento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Frm_Factura.Designer.vb">
+      <DependentUpon>Frm_Factura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Frm_Factura.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Formularios\Frm_Login.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\Frm_Login.Designer.vb">
       <DependentUpon>Frm_Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Frm_Usuarios.Designer.vb">
+      <DependentUpon>Frm_Usuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Frm_Usuarios.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Formularios\MDI_Inicio.Designer.vb">
@@ -103,8 +127,20 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Formularios\Frm_Articulos.resx">
+      <DependentUpon>Frm_Articulos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Frm_Descuento.resx">
+      <DependentUpon>Frm_Descuento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Frm_Factura.resx">
+      <DependentUpon>Frm_Factura.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Frm_Login.resx">
       <DependentUpon>Frm_Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Frm_Usuarios.resx">
+      <DependentUpon>Frm_Usuarios.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\MDI_Inicio.resx">
       <DependentUpon>MDI_Inicio.vb</DependentUpon>
